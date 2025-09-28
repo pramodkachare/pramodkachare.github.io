@@ -1,0 +1,7 @@
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  source: ./_bibliography
+  bibliography: references.bib
