@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-# GitHub Pages comes with its own Jekyll version
-gem "github-pages", group: :jekyll_plugins
-
-# Add Jekyll Scholar for publications
+gem "jekyll", "~> 4.3.2"
 gem "jekyll-scholar"
+gem "webrick"   # Needed for local Jekyll serve
